@@ -1,0 +1,40 @@
+.center {
+    display: flex;
+}
+.body {
+    height: 69vh;
+    width: 60vw;
+    padding: 7vh 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: yellow;
+}
+.body-img {
+    height: 30vh;
+    width: 60vw;
+}
+.body-squares {
+    display: flex;
+    justify-content: space-between;
+}
+.body-sq {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-sq:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.sq1 {
+    background-color: rgb(250, 71, 71);
+}
+.sq2 {
+    background-color: rgb(148, 97, 148);
+}
+.sq3 {
+    background-color: white;
+}
